@@ -12,6 +12,6 @@ class Mean {
      * @return average of num1 and num2
      */
     double meanOfTwoNum(double num1, double num2) {
-        return (num1 + num2) / 2.0;
+        return (num1 + num2)/2.0;
     }
 }

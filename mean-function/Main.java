@@ -25,9 +25,7 @@ public class Main {
 
         double result = mean.meanOfTwoNum(mean.num1, mean.num2);
 
-        System.out.printf("The mean of %.2f and %.2f is: %.2f%n",
-                mean.num1, mean.num2, result);
-
-        sc.close();
+        System.out.printf("The mean of %.2f and %.2f is: %.2f%n", mean.num1, mean.num2, result);
+        
     }
 }
