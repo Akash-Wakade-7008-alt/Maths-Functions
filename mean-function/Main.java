@@ -1,32 +1,33 @@
-
 import java.util.*;
 
 /**
+ * <p>
+ * This is the Main class where the user enters two numeric values
+ * (integer or decimal). The method meanOfTwoNum() calculates
+ * and returns their average.
+ * </p>
  * 
- * <p>This is Main class where user will enter two  integer  values
- *   and the  method  meanOfTwoNum() will give the mean of those two numbers .
- *  </p>
  * @author Akash Wakade
- * @version 1.0
- * 
+ * @version 2.0
  */
 
+public class Main {
+    public static void main(String[] args) {
 
-public class Main
-{
-	public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        Mean mean = new Mean();
 
-            Scanner sc = new Scanner(System.in);
-            Mean mean = new Mean();
-            
-            
-           System.out.print("Enter the first number\n");
-             mean.num1= sc.nextInt();
+        System.out.print("Enter the first number: ");
+        mean.num1 = sc.nextDouble();
 
-            System.out.print("Enter the second number\n");
-             mean.num2= sc.nextInt();
+        System.out.print("Enter the second number: ");
+        mean.num2 = sc.nextDouble();
 
-           int M = mean.meanOfTwoNum(mean.num1,mean.num2);
-         System.out.printf(" the mean of %d  and %d is : %d",mean.num1,mean.num2,M);
-	}
+        double result = mean.meanOfTwoNum(mean.num1, mean.num2);
+
+        System.out.printf("The mean of %.2f and %.2f is: %.2f%n",
+                mean.num1, mean.num2, result);
+
+        sc.close();
+    }
 }

@@ -1,22 +1,17 @@
-
 /**
- * <p>calculate mean of two numbers</p>
+ * <p>Calculates mean of two numbers</p>
  */
+class Mean {
 
-class Mean
-   {
+    double num1;
+    double num2;
 
-       int num1;
-       int num2; 
-      
- /**
-  * @param num1 is the first num
-  * @param num2 is the second num
-  * @return the average of num1 and num2 
-  *  */   
-      int meanOfTwoNum(num1,num2)
-      {
-           return (num1+num2)/2;
-      }
-   
-   }
+    /**
+     * @param num1 first number
+     * @param num2 second number
+     * @return average of num1 and num2
+     */
+    double meanOfTwoNum(double num1, double num2) {
+        return (num1 + num2) / 2.0;
+    }
+}
