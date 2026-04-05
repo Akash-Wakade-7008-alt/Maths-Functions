@@ -49,9 +49,10 @@ Poisson-PMF/
 
 ## 🧮 Mathematical Foundation
 
-<p align="center">
-  <img src="https://latex.codecogs.com/png.image?\dpi{150}P(X%20=%20k)%20=%20\frac{e^{-\lambda}%20\cdot%20\lambda^k}{k!}" />
-</p>
+The Poisson PMF is given by:
+
+**P(X = k) = (e^(-λ) × λ^k) / k!**
+
 ---
 
 ## 🧠 Deep Statistical Explanation (GSoC Level)
