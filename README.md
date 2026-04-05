@@ -19,6 +19,47 @@ Instead of just solving problems, I focus on:
 
 ---
 
+## 📁 About the Project
+
+Maths-Functions/
+│
+├── Functions/
+│   │
+│   ├── Mean/
+│   │   ├── Main.java              # Entry point (user input)
+│   │   ├── Mean.java              # Logic implementation
+│   │   └── README.md              # Explanation + formula
+│   │
+│   ├── PMF-Poisson/
+│   │   ├── Main.java
+│   │   ├── PMF.java
+│   │   ├── images/
+│   │   │   ├── Example.png
+│   │   │   └── Graph.png
+│   │   └── README.md
+│   │
+│   ├── PDF-Exponential/
+│   │   ├── Main.java
+│   │   ├── PDF.java
+│   │   └── README.md
+│   │
+│   └── (more functions will go here)
+│
+├── docs/                          
+│
+├── .gitignore
+├── LICENSE
+└── README.md                      # Main project overview
+
+## 🛠️ Tech Stack
+
+- Java (current primary language)  
+- JavaScript (learning & expanding)  
+- Additional languages may be added over time  
+
+---
+
+
 ## 🧠 Concepts Covered
 
 This repository includes implementations of concepts such as:
@@ -30,14 +71,6 @@ This repository includes implementations of concepts such as:
 - Statistical computations  
 
 More concepts will be added continuously as I progress.
-
----
-
-## 🛠️ Tech Stack
-
-- Java (current primary language)  
-- JavaScript (learning & expanding)  
-- Additional languages may be added over time  
 
 ---
 
