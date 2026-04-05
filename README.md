@@ -21,9 +21,9 @@ Instead of just solving problems, I focus on:
 
 ## 📁 About the Project
 ```
-Maths-Functions/
+Functions/
 │
-├── Functions/
+├── Maths-Functions/
 │   │
 │   ├── Mean/
 │   │   ├── Main.java              # Entry point (user input)
